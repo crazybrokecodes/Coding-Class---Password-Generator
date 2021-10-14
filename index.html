@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<html>
+
+<head>
+    <style background-size: 100%>
+        body {
+            background-image: url("https://preview.redd.it/io0e2k67cr961.png?width=1920&format=png&auto=webp&s=a74b9cedf1d21f44b08c8b7e7ddedaecdcc64e1e");
+        }
+    </style>
+    <!-- <style type="text/css">
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            background-image: url("https://i.imgur.com/FjuciV8.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style> -->
+</head>
+
+<body>
+
+    <audio id="https://www.youtube.com/watch?v=91vNzJut_gY" autoplay controls loop></audio>
+
+    <div class="wrapper">
+        <header>
+            <h1>Ｐａｓｓｗｏｒｄ　Ｇｅｎｅｒａｔｏｒ　汚生案</h1>
+        </header>
+        <div class="card">
+            <div class="card-header">
+                <h2>𝙋𝘼𝙎𝙎𝙒𝙊𝙍𝘿 𝙂𝙀𝙉𝙀𝙍𝘼𝙏𝙊𝙍! パスワードジェネレータ</h2>
+            </div>
+            <div class="passwordCriteria">
+                <br>
+                <input type="checkbox" id="minLength">
+                <label for="minLength"> Enable 8 Character Minimum</label><br>
+                <input type="checkbox" id="lowerCase">
+                <label for="lowerCase"> Enable Lowercase Letters</label><br>
+                <input type="checkbox" id="upperCase">
+                <label for="upperCase"> Enable Uppercase Letters</label><br>
+                <input type="checkbox" id="numeric">
+                <label for="numeric"> Enable Numbers</label><br>
+                <input type="checkbox" id="special">
+                <label for="special"> Enable Special Characters</label><br>
+            </div>
+            <div class="card-body">
+                <textarea readonly id="password" placeholder="[Password]" aria-label="Generated Password"></textarea>
+            </div>
+            <div class="card-footer">
+                <button id="generate" class="btn">Generate Password</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
